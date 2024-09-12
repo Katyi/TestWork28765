@@ -1,0 +1,30 @@
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 100px - 74px);
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading {
+  height: calc(100vh - 100px - 74px)
+}
+
+.city-name {
+  width: 15%;
+  text-align: start;
+}
+
+.temp {
+  width: 15%;
+  text-align: start;
+}
+
+.description {
+  width: 30%;
+  text-align: start;
+}
